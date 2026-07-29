@@ -39,6 +39,7 @@
       "active": true,
       "maxDevices": 3,
       "devices": []
+      node "D:/claude kodlar/hisse-portfoy/kod-uret.mjs" 5 yillik --cihaz 2
     }
   ]
 }
