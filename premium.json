@@ -1,7 +1,44 @@
 {
-  "_not": "app-kontrol deposuna yükle. usKey = Finnhub API anahtarı (ABD IPO takvimi, sadece aboneler).",
+  "_not": "app-kontrol deposuna yükle. Fiyat/plan değiştirmek için APK güncellemek gerekmez.",
   "usKey": "",
+  "trialDays": 7,
+  "plans": [
+    {
+      "id": "monthly",
+      "tag": "Aylık Yenilenir",
+      "name": "Aylık",
+      "price": "₺299 / ay",
+      "desc": "Esnek, taahhütsüz başlangıç.",
+      "productId": "finarz_premium_monthly"
+    },
+    {
+      "id": "yearly",
+      "tag": "Yıllık Yenilenir",
+      "name": "Yıllık",
+      "price": "₺2.499 / yıl",
+      "badge": "En Popüler",
+      "save": "%30 Tasarruf",
+      "old": "₺3.588",
+      "desc": "Uzun vadeli takip için en avantajlı.",
+      "productId": "finarz_premium_yearly"
+    },
+    {
+      "id": "lifetime",
+      "tag": "Tek Seferlik Ödeme",
+      "name": "Ömür Boyu",
+      "price": "₺9.999",
+      "desc": "Sonsuza dek premium ayrıcalıklar.",
+      "productId": "finarz_premium_lifetime"
+    }
+  ],
   "codes": [
-    { "code": "FA-OWNER-MK03", "plan": "Ömür Boyu", "expires": null, "active": true }
+    {
+      "code": "FA-OWNER-MK03",
+      "plan": "Ömür Boyu",
+      "expires": null,
+      "active": true,
+      "maxDevices": 3,
+      "devices": []
+    }
   ]
 }
