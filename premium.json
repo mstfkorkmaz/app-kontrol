@@ -1,0 +1,7 @@
+{
+  "_not": "app-kontrol deposuna yükle. usKey = Finnhub API anahtarı (ABD IPO takvimi, sadece aboneler).",
+  "usKey": "",
+  "codes": [
+    { "code": "FA-OWNER-MK03", "plan": "Ömür Boyu", "expires": null, "active": true }
+  ]
+}
